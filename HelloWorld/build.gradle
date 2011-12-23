@@ -1,0 +1,59 @@
+apply plugin: 'eclipse'
+apply plugin: 'java'
+
+repositories {
+    maven {
+      name "cobra"
+      url "http://cobra.cs.uni-duesseldorf.de/artifactory/experimental"
+    }
+}
+configurations { myDeps }
+
+dependencies {
+	compile 'A:A:1.0.+'
+	archives 'A:A:1.0.+'
+	myDeps 'A:A:1.0.+'
+}
+
+/* build {						// Build Configuration
+	dependsOn copyDeps 
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////     Dependency Copy and Show Tasks 		/////////
+task copyDeps(type: Copy) {
+	from configurations.myDeps
+	into "$buildDir/deps"
+}
+
+
+task showDeps <<{
+	
+	configurations.myDeps.each { file ->
+		println file
+	}
+}
