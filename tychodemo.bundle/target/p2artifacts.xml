@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='tychodemo.bundle' version='1.0.0.201201091436'>
+    <properties size='6'>
+      <property name='artifact.size' value='110773'/>
+      <property name='download.size' value='110773'/>
+      <property name='download.md5' value='022f3d3b3d99701911559dd00847f7fd'/>
+      <property name='maven-groupId' value='tychodemo'/>
+      <property name='maven-artifactId' value='tychodemo.bundle'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+  </artifact>
+</artifacts>
