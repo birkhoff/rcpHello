@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;tychodemo.repository/site.xml&apos; to &apos;category.xml&apos;" description="Rename resource &apos;site.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="site.xml" name="category.xml" stamp="1326206149998" updateReferences="true"/>
+</session>

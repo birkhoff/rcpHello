@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+/Users/Mike/Uni/ProB/GitHub/tychoTutorial/tycho-demo/exercises/Exercise_04_Add_P2_Repository/.metadata/.plugins/org.eclipse.jdt.core
+1545780610.index
